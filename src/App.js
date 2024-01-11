@@ -1,19 +1,14 @@
-// App.js
 import React from 'react';
-import { Grid } from '@mui/material';
-import Sidebar from './components/Sidebar';
+import Main from './components/main/Main';
+import Sidebar from './components/sidebar/Sidebar';
+import './App.css'; // Import your CSS file
 
 const App = () => {
   return (
-    <Grid container>
-      <Grid item>
-        <Sidebar />
-      </Grid>
-      <Grid item>
-        {/* Your main content goes here */}
-        <div>Main Content</div>
-      </Grid>
-    </Grid>
+    <div className="appContainer">
+       <Sidebar />
+       <Main/>
+    </div>
   );
 };
 

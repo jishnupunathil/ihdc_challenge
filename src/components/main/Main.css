@@ -1,0 +1,79 @@
+.Association {
+    padding-left: 10%;
+    padding-top: 1.5%;
+    width: 13%;
+    height: 16%;
+    background: white;
+    border-radius: 50px;
+    border: solid 1px rgb(248, 248, 248);
+}
+
+.box {
+    margin-left: 2%;
+    height: 15rem;
+}
+
+.logo {
+    margin-top: -5px;
+    background-color: rgb(192, 190, 190);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.logoText {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+.boxDiv {
+    /* margin-left: -6%; */
+    width: 80vw;
+    height: 93vh;
+    padding-top: 50px;
+    background: rgb(240, 236, 240);
+}
+
+.adv {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 40px;
+    color: rgb(86, 84, 84);
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+    .boxDiv {
+        width: 100vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Association {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .box {
+        margin-left: 0;
+        height: auto;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logoText {
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+
+    .adv {
+        margin-top: 2%;
+        font-size: 30px;
+    }
+}
