@@ -1,0 +1,79 @@
+/* sidebar.css */
+
+.drawer {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+  }
+  
+  .logoSection {
+    padding: 16px;
+    color: #fff;
+  }
+  
+  .logoSection img {
+    padding-left: 30%;
+    width: 30%; /* Make sure the logo fills the container */
+  }
+  
+  .optionsSection {
+    flex-grow: 1;
+  }
+  
+  .optionsSection .MuiListItemButton-root {
+    padding: 10px; /* Add spacing between each option */
+  }
+  
+  .optionsSection .MuiListItemText-root {
+    font-size: 18px; /* Increase font size */
+  }
+  
+  .optionsSection .MuiSvgIcon-root {
+    font-size: 1.8rem; /* Icon size */
+  }
+  
+  .optionsSection .MuiListItemText-primary {
+    font-size: 1.1rem; /* Text size */
+  }
+  
+  .optionsSection .Mui-selected {
+    color: #fff;
+  }
+  
+  .logoutSection {
+    padding-top: 8px;
+  }
+  
+  .headDec {
+    padding-left: 10%;
+    color: rgb(66, 75, 75);
+  }
+  
+  .iconSpacing {
+    margin-left: 10%;
+  }
+
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .drawer {
+      width: 100%; /* Make the sidebar full-width on small screens */
+    }
+  
+    .optionsSection .MuiListItemButton-root {
+      padding: 8px; /* Decrease padding for smaller screens */
+    }
+  
+    .optionsSection .MuiListItemText-root {
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  
+    .optionsSection .MuiSvgIcon-root {
+      font-size: 1.5rem; /* Decrease icon size for smaller screens */
+    }
+  
+    .optionsSection .MuiListItemText-primary {
+      font-size: 1rem; /* Decrease text size for smaller screens */
+    }
+  }
+  
